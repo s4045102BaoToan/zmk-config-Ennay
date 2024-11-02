@@ -1,0 +1,17 @@
+if SHIELD_Ennay_left
+
+# Name must be less than 16 characters long!
+config ZMK_Ennanas
+    default "Ennanas"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_Ennay_left || SHIELD_Ennay_right
+
+config ZMK_SPLIT
+    default y
+
+endif
