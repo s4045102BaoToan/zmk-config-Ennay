@@ -20,9 +20,8 @@
             , <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
-    };
-    
-    &default_transform { // Offset of 3 because the left side has 3 columns
+    };   
+}
+&default_transform { // Offset of 3 because the left side has 3 columns
     col-offset = <8>;
     };
-}
