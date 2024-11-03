@@ -1,7 +1,7 @@
 if SHIELD_Ennay_left
 
 # Name must be less than 16 characters long!
-config ZMK_Ennanas
+config ZMK_KEYBOARD_NAME
     default "Ennanas"
 
 config ZMK_SPLIT_ROLE_CENTRAL
