@@ -22,3 +22,5 @@ include:
     shield: Ennay_left
   - board: nice_nano_v2
     shield: Ennay_right
+  - board: nice_nano_v2
+    shield: settings_reset
